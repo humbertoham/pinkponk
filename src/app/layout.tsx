@@ -75,6 +75,7 @@ export default function RootLayout({
     <html lang={i18n.language}>
       <head>
         <title>Pink Ponk</title>
+        <meta name="theme-color" content="#e9ffdb" />
         <link id="favicon" rel="icon" href="/favicon-light.ico" />
         <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-light.png" />
         <link id="favicon-32x32" rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-light.png" />

@@ -21,6 +21,7 @@
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased; /* Chrome, Safari */
     -moz-osx-font-smoothing: grayscale; /* Firefox en macOS */
+    background-color: var(--menta);
   }
 :root {
     --menta: #e9ffdb;
