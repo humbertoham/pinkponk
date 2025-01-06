@@ -1,0 +1,53 @@
+{
+    "termsAndConditions": {
+      "title": "Términos y Condiciones",
+      "sections": [
+        {
+          "title": "1. Introducción",
+          "content": "Bienvenido a Pink Ponk, un negocio de diseño y desarrollo de sitios web con sede en Monterrey, Nuevo León, México. Estos términos y condiciones regulan el acceso y uso de nuestro sitio web y servicios. Al utilizar nuestro sitio web, usted acepta estos términos en su totalidad. Si no está de acuerdo con alguna parte, no utilice nuestros servicios."
+        },
+        {
+          "title": "2. Alcance y Aplicación",
+          "content": "Estos términos y condiciones son aplicables a todos los usuarios del sitio web de Pink Ponk, incluyendo clientes, visitantes y cualquier otra persona que acceda al contenido o servicios proporcionados."
+        },
+        {
+          "title": "3. Descripción de los Servicios",
+          "content": "Pink Ponk ofrece servicios de diseño, desarrollo y mantenimiento de sitios web personalizados. Las especificaciones de los proyectos, costos, plazos y otros detalles serán establecidos en acuerdos específicos con cada cliente."
+        },
+        {
+          "title": "4. Responsabilidades del Usuario",
+          "content": "Al utilizar nuestros servicios, el usuario se compromete a:",
+          "items": [
+            "Proveer información veraz y actualizada durante cualquier registro o proceso de contratación.",
+            "No utilizar nuestro sitio web para actividades ilegales o no autorizadas.",
+            "Respetar los derechos de propiedad intelectual de Pink Ponk y terceros."
+          ]
+        },
+        {
+          "title": "5. Propiedad Intelectual",
+          "content": "Todo el contenido creado por Pink Ponk, incluyendo pero no limitado a diseños, código y documentos, es propiedad exclusiva de Pink Ponk y está protegido por las leyes de derechos de autor de México. El uso no autorizado de este contenido está prohibido."
+        },
+        {
+          "title": "6. Limitación de Responsabilidad",
+          "content": "Pink Ponk no será responsable por daños directos, indirectos, incidentales o consecuentes derivados del uso de nuestro sitio web o servicios, excepto en los casos previstos por la legislación aplicable en México."
+        },
+        {
+          "title": "7. Indemnización",
+          "content": "Usted acepta indemnizar y mantener indemne a Pink Ponk, sus empleados, socios y agentes frente a cualquier reclamo, demanda o daño, incluidos honorarios legales, derivados de su uso del sitio web o incumplimiento de estos términos."
+        },
+        {
+          "title": "8. Modificaciones de los Términos",
+          "content": "Pink Ponk se reserva el derecho de modificar estos términos y condiciones en cualquier momento. Las modificaciones serán efectivas desde su publicación en este sitio. Se recomienda a los usuarios revisar periódicamente esta página para mantenerse informados."
+        },
+        {
+          "title": "9. Ley Aplicable y Jurisdicción",
+          "content": "Estos términos y condiciones se rigen por las leyes de los Estados Unidos Mexicanos. Cualquier disputa será resuelta en los tribunales competentes de Monterrey, Nuevo León."
+        },
+        {
+          "title": "10. Contacto",
+          "content": "Si tiene alguna pregunta o inquietud respecto a estos términos y condiciones, puede comunicarse con nosotros a través de nuestro correo electrónico: contact@pinkponk.lol."
+        }
+      ]
+    }
+  }
+  

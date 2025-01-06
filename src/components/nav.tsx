@@ -62,7 +62,7 @@ export default function Nav() {
             />
           </svg>
         </button>
-        <div className="hidden md:block md:w-auto" id="navbar-default">
+        <div className="hidden md:block md:w-auto bc" id="navbar-default">
           <ul className="font-medium navB flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
               <a href="/" className="block py-2 px-3 navA md:p-0" aria-current="page">

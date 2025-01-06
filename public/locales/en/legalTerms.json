@@ -1,0 +1,52 @@
+{
+    "terms": {
+      "title": "Legal Terms",
+      "sections": [
+        {
+          "title": "1. Payment Terms and Billing",
+          "content": "Payments must be made according to the terms agreed upon in the project contract. Pink Ponk reserves the right to request a 50% deposit before starting any work. The remaining balance must be settled upon project completion, prior to final delivery. In case of non-compliance:",
+          "items": [
+            "A 5% additional fee will be applied for each week of delay.",
+            "Pink Ponk may suspend or cancel the project until pending payments are made."
+          ]
+        },
+        {
+          "title": "2. Warranty and Support Policy",
+          "content": "We offer free technical support for a period of 30 days after project delivery. Any additional requests will be considered as a maintenance service and will be subject to extra charges. The warranty does not apply in the following cases:",
+          "items": [
+            "Modifications made by third parties without our consent.",
+            "Failures resulting from external issues, such as servers or hosting providers."
+          ]
+        },
+        {
+          "title": "3. Dispute Resolution Policy",
+          "content": "In the event of a dispute, both parties agree to attempt to resolve the conflict through mediation. If no solution is reached, the dispute will be submitted to the competent courts of Monterrey, Nuevo León."
+        },
+        {
+          "title": "4. Cookies and Tracking Technologies",
+          "content": "We use cookies to enhance user experience and analyze site usage. You can manage your cookie preferences through your browser settings. For more information, see our Privacy Policy."
+        },
+        {
+          "title": "5. Cancellation Policy",
+          "content": "Cancellations must be notified in writing at least 7 days in advance. If the work has already begun, the deposit will be retained as compensation for initial costs. Refunds will not be issued for work already delivered."
+        },
+        {
+          "title": "6. Accessibility Statement",
+          "content": "We are committed to ensuring that our site is accessible to everyone, including those with disabilities. If you have difficulty accessing our content, please contact us at: contact@pinkponk.lol."
+        },
+        {
+          "title": "7. Service Updates and Changes",
+          "content": "Pink Ponk reserves the right to modify its services, prices, or legal terms. Any changes will be notified through our website at least 30 days in advance."
+        },
+        {
+          "title": "8. Legal Disclaimer",
+          "content": "Pink Ponk does not guarantee specific results derived from the use of our services. The client is responsible for properly implementing our recommendations and keeping the website updated."
+        },
+        {
+          "title": "9. Acknowledgments and Third-Party Licenses",
+          "content": "This site uses third-party tools and resources that are subject to their own licenses. See the corresponding links for more details."
+        }
+      ]
+    }
+  }
+  

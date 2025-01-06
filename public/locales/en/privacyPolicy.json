@@ -1,0 +1,65 @@
+{
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "title": "1. Introduction",
+          "content": "At Pink Ponk, we respect and protect the privacy of our users. This policy describes how we collect, use, store, and protect your personal information when interacting with our website and services. By using our services, you agree to the practices described in this policy."
+        },
+        {
+          "title": "2. Information We Collect",
+          "content": "We may collect the following categories of information:",
+          "items": [
+            "Contact information: Such as name, email address, and phone number.",
+            "Technical data: IP address, browser type, operating system, and browsing details.",
+            "Usage information: How you interact with our website, including access times and pages visited."
+          ]
+        },
+        {
+          "title": "3. Use of Information",
+          "content": "The collected information is used to:",
+          "items": [
+            "Provide the requested services.",
+            "Improve our website and services.",
+            "Personalize your experience.",
+            "Send communications related to our services."
+          ]
+        },
+        {
+          "title": "4. Sharing Information with Third Parties",
+          "content": "We do not share your personal information with third parties, except in the following cases:",
+          "items": [
+            "With your explicit consent.",
+            "To comply with legal or regulatory obligations.",
+            "With service providers acting on our behalf, under strict confidentiality conditions."
+          ]
+        },
+        {
+          "title": "5. Storage and Security",
+          "content": "We implement technical and organizational security measures to protect your personal information against unauthorized access, loss, or alteration. However, no method of transmission over the Internet is completely secure, and we cannot guarantee the absolute security of your information."
+        },
+        {
+          "title": "6. User Rights",
+          "content": "You have the following rights regarding your personal information:",
+          "items": [
+            "Access the personal data we have collected.",
+            "Request corrections in case of inaccuracies.",
+            "Request the deletion of your personal data, except when the law requires us to retain it."
+          ]
+        },
+        {
+          "title": "7. Use of Cookies",
+          "content": "Pink Ponk uses cookies to improve the user experience on our website. These cookies collect information about your browsing and help us personalize content and advertising. You can configure your browser to reject cookies, but this may affect site functionality."
+        },
+        {
+          "title": "8. Changes to this Policy",
+          "content": "We reserve the right to update this privacy policy at any time. Changes will be effective upon publication on this website. It is recommended to periodically review this policy to stay informed about how we protect your information."
+        },
+        {
+          "title": "9. Contact",
+          "content": "If you have questions or concerns about our privacy policy, you can contact us via email: contact@pinkponk.lol"
+        }
+      ]
+    }
+  }
+  

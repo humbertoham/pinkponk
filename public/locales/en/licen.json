@@ -1,0 +1,51 @@
+{
+    "licensing": {
+      "title": "Licenses and Rights",
+      "sections": [
+        {
+          "title": "1. Introduction",
+          "content": "At Pink Ponk, we value and respect intellectual property rights, both our own and those of our clients and third parties. This section establishes the terms related to the licenses and use of materials, designs, and content created by our company."
+        },
+        {
+          "title": "2. Usage License",
+          "content": "When acquiring our services, we grant the client a limited, non-exclusive, and non-transferable license to use the designs and developments provided exclusively for the purposes established in the corresponding contract or agreement."
+        },
+        {
+          "title": "3. Intellectual Property",
+          "content": "All materials, codes, designs, and content created by Pink Ponk are the exclusive property of the company, unless otherwise specified in a written agreement. This includes:",
+          "items": [
+            "Custom website designs.",
+            "Source code and developed components.",
+            "Technical documentation and user guides."
+          ]
+        },
+        {
+          "title": "4. Restrictions",
+          "content": "Clients are not allowed to:",
+          "items": [
+            "Reproduce, distribute, or resell our designs or developments without prior written authorization.",
+            "Modify or adapt the materials created, unless specifically agreed upon in the contract.",
+            "Remove watermarks, credits, or any reference to Pink Ponk, unless explicitly authorized."
+          ]
+        },
+        {
+          "title": "5. Third-Party and Open Source Software",
+          "content": "Some of our projects may include third-party libraries or open-source software tools, which are subject to their own licenses. Pink Ponk complies with these licenses and expects clients to do the same."
+        },
+        {
+          "title": "6. License Termination",
+          "content": "Pink Ponk reserves the right to revoke the usage license in case of non-compliance with the established terms. In this case, the client must immediately cease using the provided content."
+        },
+        {
+          "title": "7. Warranty Limitations",
+          "content": "Pink Ponk does not guarantee that the materials provided are error-free or fully compatible with all platforms, unless explicitly stated in the agreement."
+        },
+        {
+          "title": "8. Contact",
+          "content": "For inquiries related to licenses and rights, contact us at: contact@pinkponk.lol"
+          
+        }
+      ]
+    }
+  }
+  

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "framer-motion": "^11.2.10",
     "i18next": "^24.1.2",
     "i18next-browser-languagedetector": "^8.0.2",
@@ -17,7 +18,8 @@
     "next-i18next": "^15.4.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-i18next": "^15.2.0"
+    "react-i18next": "^15.2.0",
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",

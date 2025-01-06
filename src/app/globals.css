@@ -17,8 +17,31 @@
     font-weight: 900;
     src: url('../../public/fonts/poppins/poppins-v21-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/lato/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../public/fonts/lato/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+
+
+
   body {
-    font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased; /* Chrome, Safari */
     -moz-osx-font-smoothing: grayscale; /* Firefox en macOS */
     background-color: var(--menta);
@@ -30,6 +53,29 @@
     --green: #004643;
     --yellow: #d1ac00;
   }
+  .pop{
+    font-family: 'Poppins';
+
+
+  }
+  .lat{
+    font-family:'Lato' ;
+  }
+  .bg-darkgreen {
+    background-color: var(--darkgreen);
+  }
+  
+  .text-white {
+    color: var(--white);
+    font-family:'Lato' ;
+    font-weight: 300;
+  }
+  
+  .hover\:text-yellow:hover {
+    color: var(--yellow);
+  }
+
+
 
 .ban{
 
@@ -37,6 +83,7 @@
     background-color: var(--menta);
 
 }
+
 .navB{
   background-color: var(--menta) !important;
 }
@@ -50,9 +97,30 @@
   transition: color 0.3s ease;
 }
 
+.learn{
+  font-family:'Lato';
+  font-size: 1.1rem;
+  color: var(--green);
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  
+}
+
+.learn:hover{
+  color: var(--darkgreen);
+  text-decoration: underline;
+
+}
+
 .navA:hover {
   color: var(--darkgreen);
 }
+
+*, ::before, ::after {
+ border-color: var(--darkgreen);
+}
+
 
 .navA::after {
   content: '';
