@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const Licensing: React.FC = () => {
   const { t } = useTranslation('licensing');
@@ -20,7 +20,20 @@ const Licensing: React.FC = () => {
         {sections.map((section, index) => (
           <section className="mb-8" key={index}>
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 pop">{section.title}</h2>
-            <p className="text-base md:text-lg leading-relaxed lat">{section.content}</p>
+            <p className="text-base md:text-lg leading-relaxed lat">
+
+                <Trans
+                                i18nKey={`licensing.sections.${index}.content`}
+                                defaults={section.content} // Esto asegura que si la clave falla, usa el contenido estático
+                                components={{
+                                  1: <a href="mailto:contact@pinkponk.lol" className="text-yellow underline" target="_blank" rel="noopener noreferrer"></a>,
+                                }}
+                              >
+                                {section.content}
+                              </Trans>
+
+
+            </p>
             {section.items && (
               <ul className="list-disc list-inside ml-4">
                 {section.items.map((item, idx) => (

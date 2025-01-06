@@ -61,10 +61,18 @@
   .lat{
     font-family:'Lato' ;
   }
+  .text-darkgreen{
+    color: var(--darkgreen);
+  }
+  .bg-yellow{
+    background-color: var(--yellow);
+  }
   .bg-darkgreen {
     background-color: var(--darkgreen);
   }
-  
+  .text-yellow{
+    color: var(--yellow);
+  }
   .text-white {
     color: var(--white);
     font-family:'Lato' ;

@@ -1,7 +1,8 @@
+import Error404 from "@/components/error404";
 
 export default function Home() {
   return (<>
-    <h1>Hola</h1>
+    <Error404/>
     </>
   );
 }
