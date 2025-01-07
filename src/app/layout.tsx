@@ -83,7 +83,27 @@ export default function RootLayout({
       
       clearTimeout(timer);
       
-      return (<div>Loading...</div>
+      return (
+
+
+        <html>
+        <head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Pink Ponk</title>
+          <meta name="theme-color" content="#e9ffdb" />
+          <link id="favicon" rel="icon" href="/favicon-light.ico" />
+          <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-light.png" />
+          <link id="favicon-32x32" rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-light.png" />
+          <link id="favicon-16x16" rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16-light.png" />
+          <link id="android-192x192" rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192-light.png" />
+          <link id="android-512x512" rel="icon" type="image/png" sizes="512x512-light.png" />
+          <link id="webmanifest" rel="manifest" href="/site-light.webmanifest" />
+        </head>
+        <body className={inter.className}>
+          <div>Loading...</div>
+        </body>
+      </html>
 
 
 
