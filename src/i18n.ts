@@ -11,8 +11,10 @@ import enTermsAndConditions from '../public/locales/en/termsAndConditions.json';
 import esTermsAndConditions from '../public/locales/es/termsAndConditions.json';
 import enPrivacyPolicy from '../public/locales/en/privacyPolicy.json';
 import esPrivacyPolicy from '../public/locales/es/privacyPolicy.json';
-import enErrors from '../public/locales/en/errors.json'; // Nuevo JSON
-import esErrors from '../public/locales/es/errors.json'; // Nuevo JSON
+import enErrors from '../public/locales/en/errors.json';
+import esErrors from '../public/locales/es/errors.json';
+import enContactForm from '../public/locales/en/contactForm.json'; // Nuevo JSON
+import esContactForm from '../public/locales/es/contactForm.json'; // Nuevo JSON
 
 const resources = {
   en: {
@@ -21,7 +23,8 @@ const resources = {
     licensing: enLicen,
     termsAndConditions: enTermsAndConditions,
     privacyPolicy: enPrivacyPolicy,
-    errors: enErrors, // Agregado
+    errors: enErrors,
+    contactForm: enContactForm, // Agregado
   },
   es: {
     translation: esTranslations,
@@ -29,7 +32,8 @@ const resources = {
     licensing: esLicen,
     termsAndConditions: esTermsAndConditions,
     privacyPolicy: esPrivacyPolicy,
-    errors: esErrors, // Agregado
+    errors: esErrors,
+    contactForm: esContactForm, // Agregado
   },
 };
 
@@ -48,7 +52,8 @@ i18n
       'licensing',
       'termsAndConditions',
       'privacyPolicy',
-      'errors', // Nuevo namespace
+      'errors',
+      'contactForm', // Nuevo namespace
     ],
     defaultNS: 'translation',
     debug: false,

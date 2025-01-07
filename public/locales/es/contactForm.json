@@ -1,0 +1,33 @@
+{
+    "contactForm": {
+      "submitted": {
+        "title": "¡Muchas gracias!",
+        "message": "Nos pondremos en contacto contigo pronto."
+      },
+      "form": {
+        "title": "Contáctanos",
+        "fields": {
+          "name": {
+            "label": "Nombre",
+            "placeholder": "Escribe tu nombre"
+          },
+          "email": {
+            "label": "Correo electrónico",
+            "placeholder": "Escribe tu correo electrónico"
+          },
+          "message": {
+            "label": "Mensaje",
+            "placeholder": "Escribe tu mensaje"
+          }
+        },
+        "checkbox": {
+          "label": "He leído y acepto los <1>Términos y Condiciones</1> y las <2>Políticas de Privacidad</2>."
+        },
+        "error": "Debes aceptar los términos y condiciones y las políticas de privacidad para continuar."
+      },
+      "button": {
+        "submit": "Enviar"
+      }
+    }
+  }
+  

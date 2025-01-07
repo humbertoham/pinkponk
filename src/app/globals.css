@@ -58,6 +58,7 @@
 
 
   }
+ 
   .lat{
     font-family:'Lato' ;
   }
@@ -180,3 +181,5 @@
       text-align: left; /* Opcional: cambia alineación en móviles */
   }
 }
+
+
