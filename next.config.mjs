@@ -6,5 +6,5 @@ const nextConfig = {
     },
   };
   
-  export { nextConfig };
+  export default nextConfig; // Exporta directamente el objeto sin envolverlo en una propiedad
   

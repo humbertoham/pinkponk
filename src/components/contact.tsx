@@ -155,7 +155,7 @@ const ContactForm = () => {
   animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
 >
-  <div className="flex items-center space-x-2"> {/* Cambiado items-start a items-center */}
+  <div className="flex items-center space-x-2">
     <input
       type="checkbox"
       id="terms"
