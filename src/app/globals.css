@@ -45,14 +45,50 @@
     -webkit-font-smoothing: antialiased; /* Chrome, Safari */
     -moz-osx-font-smoothing: grayscale; /* Firefox en macOS */
     background-color: var(--menta);
+
+
+
+
   }
+
 :root {
     --menta: #e9ffdb;
     --white: #faf4d3;
     --darkgreen: #172b2d;
     --green: #004643;
     --yellow: #d1ac00;
+
+    --yelflow: #d1ab009a;
+    --yellows: #ffd107;
+   
+
+
+
   }
+
+
+  body {
+    scrollbar-width: thin; /* Solo para navegadores Firefox */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px; /* Anchura de la scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--yellow); /* Color del "thumb" (la barra) */
+    border-radius: 6px;
+  }
+
+ 
+
+  
+  ::-webkit-scrollbar-track {
+    background: var(--yelflow); /* Fondo inicial */
+  }
+
+/* Definición de la animación */
+
   .pop{
     font-family: 'Poppins';
 
@@ -182,4 +218,8 @@
   }
 }
 
+/* globals.css */
+html {
+  scroll-behavior: smooth;
+}
 

@@ -79,7 +79,7 @@ export default function RootLayout({
     if (!isI18nReady){ 
       const timer = setTimeout(() => {
         window.location.reload();
-      }, 1000); // Recarga después de 5 segundos
+      }, 1000); // Recarga después de 1 segundo
       
       clearTimeout(timer);
       
@@ -101,7 +101,7 @@ export default function RootLayout({
           <link id="webmanifest" rel="manifest" href="/site-light.webmanifest" />
         </head>
         <body className={inter.className}>
-          <div>Loading...</div>
+          <div></div>
         </body>
       </html>
 

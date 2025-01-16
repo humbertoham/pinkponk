@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 const Footer = () => {
     const { t } = useTranslation();
     return (
-        <footer className="bg-darkgreen shadow text-white">
+        <footer className="bg-darkgreen mt-11 shadow text-white">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     {/* Redes sociales */}
@@ -26,7 +26,7 @@ const Footer = () => {
                             </svg>
                             <span className="sr-only">Twitter</span>
                         </a>
-                    </div>
+                    </div>    
 
                     {/* Links del footer */}
                     <ul className="flex flex-wrap items-center py-2 text-sm font-medium text-gray-400 lg:py-0">
