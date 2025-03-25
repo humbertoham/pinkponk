@@ -1,12 +1,17 @@
 'use client';
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useTranslation, Trans } from "next-i18next";
 import { motion } from "framer-motion";
 import { FaUser, FaEnvelope, FaRegPaperPlane } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
+import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactForm = () => {
   const { t } = useTranslation("contactForm");
+
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -29,15 +34,32 @@ const ContactForm = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!isChecked) {
       setError(t("contactForm.form.error"));
       return;
     }
-    console.log("Form submitted:", formData);
-    setIsSubmitted(true);
+
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // From .env
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // From .env
+        formData,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // From .env
+      );
+
+      setIsSubmitted(true);
+      setFormData({ name: "", email: "", message: "" }); // Reset form
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      setError(t("contactForm.form.submitError"));
+    }
   };
+
+
+
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-[var(--menta)] pb-10 px-4">
@@ -149,6 +171,9 @@ const ContactForm = () => {
                 className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[var(--white)] lat"
               />
             </motion.div>
+
+
+
             <motion.div
   className="mb-6 flex flex-col items-center"
   initial={{ opacity: 0, x: -50 }}
@@ -179,8 +204,20 @@ const ContactForm = () => {
   </div>
   {error && <p className="text-red-500 text-center mt-2">{error}</p>}
 </motion.div>
-
-
+<motion.div
+className="mb-6 flex flex-col items-center"
+initial={{ opacity: 0, x: -50 }}
+animate={{ opacity: 1, x: 0 }}
+transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
+>
+<ReCAPTCHA
+        ref={recaptchaRef}
+        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY!}
+        onChange={(token: string | null) => setCaptchaToken(token)}
+        className="mb-4" // Optional styling
+        size="normal" // "compact" or "invisible" for different sizes
+      />
+      </motion.div>
 
 <div className="flex justify-center">
   <motion.button

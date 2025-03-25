@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 const Footer = () => {
     const { t } = useTranslation();
     return (
-        <footer className="bg-darkgreen mt-11 shadow text-white">
+        <footer className="bg-darkgreen pt-11 shadow text-white">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     {/* Redes sociales */}

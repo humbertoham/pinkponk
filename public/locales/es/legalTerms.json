@@ -1,52 +1,51 @@
 {
-    "terms": {
-      "title": "Términos Legales",
-      "sections": [
-        {
-          "title": "1. Términos de Pago y Facturación",
-          "content": "Los pagos deben realizarse según los términos acordados previamente en el contrato del proyecto. Pink Ponk se reserva el derecho de solicitar un anticipo del 50% antes de comenzar cualquier trabajo. El saldo restante debe liquidarse al finalizar el proyecto, antes de la entrega final. En caso de incumplimiento:",
-          "items": [
-            "Se aplicará un cargo adicional del 5% por cada semana de retraso.",
-            "Pink Ponk puede suspender o cancelar el proyecto hasta que se realicen los pagos pendientes."
-          ]
-        },
-        {
-          "title": "2. Política de Garantía y Soporte",
-          "content": "Ofrecemos soporte técnico gratuito por un periodo de 30 días posteriores a la entrega del proyecto. Cualquier solicitud adicional será considerada como un servicio de mantenimiento y estará sujeta a cargos extra. La garantía no aplica en los siguientes casos:",
-          "items": [
-            "Modificaciones realizadas por terceros sin nuestro consentimiento.",
-            "Fallas derivadas de problemas externos, como servidores o proveedores de hosting."
-          ]
-        },
-        {
-          "title": "3. Política de Resolución de Disputas",
-          "content": "En caso de controversia, ambas partes acuerdan intentar resolver el conflicto mediante mediación. Si no se llega a una solución, la disputa será sometida a los tribunales competentes de Monterrey, Nuevo León."
-        },
-        {
-          "title": "4. Cookies y Tecnologías de Rastreo",
-          "content": "Utilizamos cookies para mejorar la experiencia de los usuarios y analizar el uso del sitio. Puede gestionar sus preferencias de cookies a través de la configuración de su navegador. Para más información, consulte nuestra <2>Política de Privacidad.</2>"
-        },
-        {
-          "title": "5. Política de Cancelación",
-          "content": "Las cancelaciones deben notificarse por escrito con al menos 7 días de anticipación. Si el trabajo ya ha comenzado, se retendrá el anticipo como compensación por los costos iniciales. No se realizarán reembolsos por trabajos ya entregados."
-        },
-        {
-          "title": "6. Declaración de Accesibilidad",
-          "content": "Nos comprometemos a garantizar que nuestro sitio sea accesible para todas las personas, incluidas aquellas con discapacidades. Si tiene dificultades para acceder a nuestro contenido, contáctenos en: <1>contact@pinkponk.lol</1>"
-        },
-        {
-          "title": "7. Actualizaciones y Cambios en el Servicio",
-          "content": "Pink Ponk se reserva el derecho de modificar sus servicios, precios o términos legales. Cualquier cambio será notificado a través de nuestro sitio web con al menos 30 días de anticipación."
-        },
-        {
-          "title": "8. Aviso Legal",
-          "content": "Pink Ponk no garantiza resultados específicos derivados del uso de nuestros servicios. El cliente es responsable de implementar correctamente nuestras recomendaciones y mantener el sitio web actualizado."
-        },
-        {
-          "title": "9. Reconocimientos y Licencias de Terceros",
-          "content": "Este sitio utiliza herramientas y recursos de terceros que están sujetos a sus propias licencias. Consulte los enlaces correspondientes para más detalles."
-        }
-      ]
-    }
+  "terms": {
+    "title": "Términos y Condiciones Legales",
+    "sections": [
+      {
+        "title": "1. Términos de Pago y Facturación",
+        "content": "Los pagos se realizarán de acuerdo con los términos establecidos en el contrato del proyecto. Pink Ponk requiere un depósito del 50% antes del inicio de cualquier trabajo, y el saldo restante se deberá al finalizar el proyecto y antes de la entrega final. El incumplimiento de estos términos de pago puede resultar en:",
+        "items": [
+          "Se agregará un recargo del 5% por cada semana de retraso.",
+          "Suspensión o cancelación del proyecto hasta que se reciban todos los pagos pendientes."
+        ]
+      },
+      {
+        "title": "2. Política de Garantía y Soporte",
+        "content": "Ofrecemos soporte técnico gratuito durante 30 días posteriores a la entrega del proyecto para resolver defectos o problemas atribuibles a nuestro trabajo. Cualquier solicitud de soporte más allá de este período se facturará como un servicio de mantenimiento. Esta garantía queda anulada en caso de:",
+        "items": [
+          "Modificaciones no autorizadas realizadas por terceros.",
+          "Fallos resultantes de factores externos, incluyendo problemas con servidores, proveedores de hosting o software de terceros."
+        ]
+      },
+      {
+        "title": "3. Política de Resolución de Disputas",
+        "content": "En caso de cualquier disputa que surja de o esté relacionada con estos términos, ambas partes acuerdan intentar primero resolverla mediante mediación. Si la mediación falla en un plazo razonable, la disputa se someterá a arbitraje vinculante de acuerdo con las leyes aplicables, realizándose los procedimientos en Monterrey, Nuevo León. La decisión del arbitraje será final y vinculante para ambas partes."
+      },
+      {
+        "title": "4. Cookies y Tecnologías de Seguimiento",
+        "content": "Nuestro sitio web utiliza cookies y tecnologías de seguimiento similares para mejorar la experiencia del usuario y analizar el uso del sitio. Al continuar utilizando nuestro sitio, usted consiente el uso de cookies de acuerdo con nuestra política de cookies. Puede gestionar sus preferencias de cookies a través de la configuración de su navegador. Para obtener más detalles, por favor consulte nuestra <2>Política de Privacidad</2>."
+      },
+      {
+        "title": "5. Política de Cancelación",
+        "content": "Las cancelaciones deben comunicarse por escrito al menos 7 días antes del inicio programado del trabajo. Si el trabajo ya ha comenzado, se retendrá el depósito inicial para cubrir los costos iniciales, y no se reembolsará ningún trabajo ya entregado. Las cancelaciones realizadas después del inicio del trabajo pueden incurrir en cargos adicionales."
+      },
+      {
+        "title": "6. Declaración de Accesibilidad",
+        "content": "Estamos comprometidos a asegurar que nuestro sitio web sea accesible para todos, incluyendo personas con discapacidad. Trabajamos continuamente para mejorar la accesibilidad y agradecemos sus comentarios. Si encuentra algún problema de accesibilidad, por favor contáctenos en: <1>contact@pinkponk.lol</1>."
+      },
+      {
+        "title": "7. Actualizaciones y Cambios en el Servicio",
+        "content": "Pink Ponk se reserva el derecho de modificar sus servicios, precios o términos legales en cualquier momento. Los clientes serán notificados de cualquier cambio a través de nuestro sitio web con al menos 30 días de antelación. El uso continuado de nuestros servicios después de dichos cambios constituye la aceptación de los términos actualizados."
+      },
+      {
+        "title": "8. Descargo de Responsabilidad Legal",
+        "content": "Pink Ponk no garantiza resultados específicos del uso de nuestros servicios. Toda la información proporcionada es únicamente para fines informativos generales. Los clientes son responsables de implementar nuestras recomendaciones y mantener sus sistemas. En la máxima medida permitida por la ley, Pink Ponk no será responsable de ningún daño indirecto, incidental o consecuente derivado del uso de nuestros servicios."
+      },
+      {
+        "title": "9. Reconocimientos y Licencias de Terceros",
+        "content": "Este sitio web incorpora herramientas, recursos y contenido de terceros regidos por sus respectivos acuerdos de licencia. No asumimos responsabilidad por los términos o prácticas de estos terceros. Por favor, consulte los enlaces respectivos para obtener más información sobre sus términos de licencia."
+      }
+    ]
   }
-  
+}

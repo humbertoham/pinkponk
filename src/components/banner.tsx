@@ -9,16 +9,17 @@ export default function Banner() {
       <div className="flex-1">
         <h1 className="banh">{t('vision')}</h1>
         <h1 className="banh">{t('code')}</h1>
-        
       </div>
 
       {/* Imagen */}
-      <div className="flex-1 flex justify-center items-center mt-6 md:mt-0">
-        <img src='./images/herosection.svg'  className="w-40 h-40 md:w-2/3 lg:w-1/2"/>
-        <a href='/services' className='pl-4 learn block' >{t('learn')} <IoIosArrowForward className='inline'/> </a>
-
+      <div className="flex-1 flex flex-col items-center mt-6 md:mt-0">
+        <img 
+          src='./images/herosection.svg' 
+          className=" h-60 md:h-3/4  lg:h-3/4 xl:w-[700px]  max-w-full"
+          alt="Hero Section"
+        />
+        <a href='/services' className='pl-4 learn block mt-2' >{t('learn')} <IoIosArrowForward className='inline'/> </a>
       </div>
     </div>
   );
 }
-

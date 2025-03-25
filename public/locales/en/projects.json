@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "title": "E-Commerce Platform",
+      "description": "A full-featured e-commerce platform with user authentication, product listings, and a shopping cart.",
+      "image": "/images/e-commerce-platform.jpg",
+      "link": "https://ecommerce.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Node.js", "MongoDB"]
+    },
+    {
+      "id": "2",
+      "title": "Personal Blog",
+      "description": "A personal blog site with markdown support and a content management system.",
+      "image": "/images/personal-blog.jpg",
+      "link": "https://blog.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "GraphQL", "Prisma"]
+    },
+    {
+      "id": "3",
+      "title": "Portfolio Website",
+      "description": "A portfolio website to showcase projects and skills with an interactive design.",
+      "image": "/images/portfolio-website.jpg",
+      "link": "https://portfolio.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"]
+    }
+  ]
+  

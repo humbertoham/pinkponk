@@ -1,65 +1,63 @@
 {
-    "privacyPolicy": {
-      "title": "Política de Privacidad",
-      "sections": [
-        {
-          "title": "1. Introducción",
-          "content": "En Pink Ponk respetamos y protegemos la privacidad de nuestros usuarios. Esta política describe cómo recopilamos, utilizamos, almacenamos y protegemos su información personal al interactuar con nuestro sitio web y servicios. Al utilizar nuestros servicios, usted acepta las prácticas descritas en esta política."
-        },
-        {
-          "title": "2. Información que Recopilamos",
-          "content": "Podemos recopilar las siguientes categorías de información:",
-          "items": [
-            "Información de contacto: Como nombre, dirección de correo electrónico y número de teléfono.",
-            "Datos técnicos: Dirección IP, tipo de navegador, sistema operativo y detalles de navegación.",
-            "Información de uso: Cómo interactúa con nuestro sitio web, incluidos tiempos de acceso y páginas visitadas."
-          ]
-        },
-        {
-          "title": "3. Uso de la Información",
-          "content": "La información recopilada se utiliza para:",
-          "items": [
-            "Proveer los servicios solicitados.",
-            "Mejorar nuestro sitio web y servicios.",
-            "Personalizar su experiencia.",
-            "Enviar comunicaciones relacionadas con nuestros servicios."
-          ]
-        },
-        {
-          "title": "4. Compartir Información con Terceros",
-          "content": "No compartimos su información personal con terceros, salvo en los siguientes casos:",
-          "items": [
-            "Con su consentimiento explícito.",
-            "Para cumplir con obligaciones legales o regulatorias.",
-            "Con proveedores de servicios que actúan en nuestro nombre, bajo estrictas condiciones de confidencialidad."
-          ]
-        },
-        {
-          "title": "5. Almacenamiento y Seguridad",
-          "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger su información personal contra accesos no autorizados, pérdida o alteración. Sin embargo, ningún método de transmisión por Internet es completamente seguro, y no podemos garantizar la seguridad absoluta de su información."
-        },
-        {
-          "title": "6. Derechos del Usuario",
-          "content": "Usted tiene los siguientes derechos sobre su información personal:",
-          "items": [
-            "Acceder a los datos personales que hemos recopilado.",
-            "Solicitar correcciones en caso de inexactitudes.",
-            "Solicitar la eliminación de sus datos personales, salvo cuando la ley nos exija conservarlos."
-          ]
-        },
-        {
-          "title": "7. Uso de Cookies",
-          "content": "Pink Ponk utiliza cookies para mejorar la experiencia del usuario en nuestro sitio web. Estas cookies recopilan información sobre su navegación y nos ayudan a personalizar contenido y publicidad. Puede configurar su navegador para rechazar cookies, pero esto podría afectar la funcionalidad del sitio."
-        },
-        {
-          "title": "8. Cambios en esta Política",
-          "content": "Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Las modificaciones serán efectivas al momento de su publicación en este sitio web. Se recomienda revisar periódicamente esta política para estar informado sobre cómo protegemos su información."
-        },
-        {
-          "title": "9. Contacto",
-          "content": "Si tiene preguntas o inquietudes sobre nuestra política de privacidad, puede contactarnos a través de nuestro correo electrónico: <1>contact@pinkponk.lol</1>"
-        }
-      ]
-    }
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "sections": [
+      {
+        "title": "1. Introducción",
+        "content": "En Pink Ponk, estamos comprometidos a respetar y proteger la privacidad de nuestros usuarios. Esta política explica cómo recopilamos, usamos, almacenamos y salvaguardamos su información personal cuando interactúa con nuestras plataformas digitales, productos de software y servicios. Al utilizar nuestras plataformas o servicios, usted acepta las prácticas aquí descritas y consiente nuestros métodos de procesamiento de datos de acuerdo con las leyes de privacidad aplicables."
+      },
+      {
+        "title": "2. Información que Recopilamos",
+        "content": "Podemos recopilar varios tipos de información para mejorar nuestros servicios y su experiencia como usuario. Esto incluye:",
+        "items": [
+          "Información de contacto, como su nombre, dirección de correo electrónico y número de teléfono.",
+          "Datos técnicos, incluyendo su dirección IP, tipo de navegador, sistema operativo y otros detalles relacionados.",
+          "Información de uso, como detalles de sus interacciones con nuestras plataformas digitales, tiempos de acceso y páginas visitadas."
+        ]
+      },
+      {
+        "title": "3. Uso de la Información",
+        "content": "Utilizamos la información recopilada para los siguientes propósitos:",
+        "items": [
+          "Proporcionar y mejorar los servicios que solicita.",
+          "Mejorar y personalizar su experiencia en nuestras plataformas, productos y servicios.",
+          "Comunicarnos con usted respecto a actualizaciones, promociones y otra información relevante."
+        ]
+      },
+      {
+        "title": "4. Compartir Información con Terceros",
+        "content": "No compartimos su información personal con terceros, excepto en las siguientes situaciones:",
+        "items": [
+          "Cuando tenemos su consentimiento explícito.",
+          "Para cumplir con obligaciones legales o regulatorias.",
+          "Con proveedores de servicios de confianza que actúan en nuestro nombre bajo acuerdos de confidencialidad estrictos."
+        ]
+      },
+      {
+        "title": "5. Almacenamiento y Seguridad",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas robustas para proteger su información personal contra accesos no autorizados, pérdida o alteración. Sin embargo, ningún método de transmisión por Internet es completamente seguro y, aunque nos esforzamos por proteger sus datos, no podemos garantizar una seguridad absoluta."
+      },
+      {
+        "title": "6. Derechos del Usuario",
+        "content": "Usted tiene los siguientes derechos respecto a sus datos personales:",
+        "items": [
+          "El derecho a acceder a los datos personales que tenemos sobre usted.",
+          "El derecho a solicitar correcciones a cualquier inexactitud en sus datos.",
+          "El derecho a solicitar la eliminación de sus datos personales, sujeto a los requisitos legales de retención aplicables."
+        ]
+      },
+      {
+        "title": "7. Uso de Cookies",
+        "content": "Nuestro sitio web utiliza cookies y tecnologías de seguimiento similares para mejorar su experiencia. Estas cookies recopilan información sobre su comportamiento de navegación para ayudarnos a personalizar el contenido y la publicidad. Usted puede gestionar o desactivar las cookies a través de la configuración de su navegador, aunque esto puede afectar la funcionalidad de nuestro sitio web."
+      },
+      {
+        "title": "8. Cambios a esta Política",
+        "content": "Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Los cambios serán efectivos inmediatamente al publicarse en nuestras plataformas digitales. Le recomendamos revisar esta política periódicamente para mantenerse informado sobre cómo protegemos su información."
+      },
+      {
+        "title": "9. Contacto",
+        "content": "Si tiene alguna pregunta o inquietud respecto a esta política de privacidad, por favor contáctenos vía correo electrónico a: <1>contact@pinkponk.lol</1>."
+      }
+    ]
   }
-  
+}
