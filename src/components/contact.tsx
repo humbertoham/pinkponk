@@ -35,29 +35,39 @@ const ContactForm = () => {
   };
 
 
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+  
+    // Verificar si el usuario ha marcado la casilla de términos
     if (!isChecked) {
       setError(t("contactForm.form.error"));
       return;
     }
-
+  
+    // 🚨 Verificar si el reCAPTCHA fue completado
+    if (!captchaToken) {
+      setError(t("contactForm.form.recaptchaError")); // Mensaje de error si el usuario no completó el captcha
+      return;
+    }
+  
     try {
       await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // From .env
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // From .env
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         formData,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // From .env
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
-
+  
       setIsSubmitted(true);
       setFormData({ name: "", email: "", message: "" }); // Reset form
+      setCaptchaToken(null); // Reset reCAPTCHA después de enviar el formulario
+      recaptchaRef.current?.reset(); // Reset visual del reCAPTCHA
     } catch (error) {
-      console.error('Failed to send email:', error);
+      console.error("Failed to send email:", error);
       setError(t("contactForm.form.submitError"));
     }
   };
-
 
 
 
