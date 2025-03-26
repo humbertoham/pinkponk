@@ -111,15 +111,17 @@
     color: var(--yellow);
   }
   .text-white {
-    color: var(--white);
-    font-family:'Lato' ;
-    font-weight: 300;
+    color: var(--white) !important;
+    font-family:'Lato' !important;
+    font-weight: 300 !important;
   }
   
   .hover\:text-yellow:hover {
     color: var(--yellow);
   }
-
+  .tw{
+    color: var(--white);
+  }
 
 
 .ban{
@@ -191,6 +193,17 @@
     font-weight: 900;
 
 }
+.abouth{
+  font-family: 'Poppins';
+  text-align: left;
+  color: var(--white);
+  font-size: 10rem;
+  font-weight: 900;
+
+}
+.dot{
+  color: var(--yellow);
+}
 
 .logo{
     width: auto;
@@ -208,12 +221,20 @@
   .banh {
       font-size: 6rem;
   }
+  .abouth{
+    font-size: 6rem;
+    
+  }
 }
 
 /* Para pantallas pequeñas (por ejemplo, móviles) */
 @media (max-width: 768px) {
   .banh {
       font-size: 4rem;
+      text-align: left; /* Opcional: cambia alineación en móviles */
+  }
+  .abouth{
+    font-size: 4rem;
       text-align: left; /* Opcional: cambia alineación en móviles */
   }
 }

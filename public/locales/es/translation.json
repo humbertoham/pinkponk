@@ -1,6 +1,6 @@
 {
-  "vision": "YOUR VISION,",
-  "code": "OUR CODE.",
+  "vision": "TU VISIÓN,",
+  "code": "NUESTRO CÓDIGO.",
   "home":"Inicio",
   "services":"Servicios",
   "portfolio":"Portafolio",
@@ -10,5 +10,8 @@
   "privacy":"Políticas de Privacidad",
   "terms":"Términos & Condiciones",
   "licen":"Licencias",
-  "legal":"Términos Legales"
+  "legal":"Términos Legales",
+  "title": "¡Vamos a crear juntos!",
+  "description": "¿Listo para darle vida a tu visión? Colaboremos en algo extraordinario que se alinee con tus objetivos únicos.",
+  "buttonText": "Contáctanos"
 }

@@ -2,7 +2,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowForward } from "react-icons/io";
-
+import Link from 'next/link';
 const Error404: React.FC = () => {
   const { t } = useTranslation('errors'); // Asegúrate de que el namespace 'errors' esté configurado en tus archivos de traducción
 
@@ -14,12 +14,12 @@ const Error404: React.FC = () => {
       <div className="text-center">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 pop">{title}</h1>
         <p className="text-base md:text-lg leading-relaxed mb-6 lat">{description}</p>
-        <a
+        <Link
           href="/"
           className="text-yellow hover:underline text-lg font-semibold "
         >
           {t('404.goHome', 'Go to Homepage')}  <IoIosArrowForward className='inline'/>
-        </a>
+        </Link>
       </div>
     </div>
   );

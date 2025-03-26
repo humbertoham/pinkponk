@@ -2,10 +2,12 @@
     "contactForm": {
       "submitted": {
         "title": "¡Gracias!",
+        
         "message": "Nos pondremos en contacto contigo pronto."
       },
       "form": {
         "title": "Contáctanos",
+        "recaptchaError": "Por favor, completa el reCAPTCHA antes de enviar el formulario.",
         "fields": {
           "name": {
             "label": "Nombre",
@@ -26,7 +28,7 @@
         "error": "Debes aceptar los términos y condiciones y las políticas de privacidad para continuar."
       },
       "button": {
-        "submit": "Enviar"
+        "submit": "Enviar Mensaje"
       }
     }
   }

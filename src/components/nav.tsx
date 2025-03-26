@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from "next/image";
+import Link from 'next/link';
 
 export default function Nav() {
   const { t } = useTranslation();
@@ -35,9 +37,9 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex pt-2 items-center space-x-3 rtl:space-x-reverse">
-          <img src="./images/weblogo.svg" className="logo" alt="pink ponk logo" />
-        </a>
+        <Link href="/" className="flex pt-2 items-center space-x-3 rtl:space-x-reverse">
+          <Image width={100} height={50} src="/images/weblogo.svg" className="logo" alt="pink ponk logo" />
+        </Link>
         <button
           onClick={toggleMenu}
           type="button"
@@ -65,29 +67,29 @@ export default function Nav() {
         <div className="hidden md:block md:w-auto bc" id="navbar-default">
           <ul className="font-medium navB flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <a href="/" className="block py-2 px-3 navA md:p-0" aria-current="page">
+              <Link href="/" className="block py-2 px-3 navA md:p-0" aria-current="page">
                 {t('home')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
+              <Link href="/services" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
                 {t('services')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/portfolio" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
+              <Link href="/portfolio" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
                 {t('portfolio')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
+              <Link href="/about" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
                 {t('about')}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
+              <Link href="/contact" className="block py-2 px-3 rounded md:border-0 navA md:p-0">
                 {t('contact')}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -103,29 +105,29 @@ export default function Nav() {
             >
               <ul className="font-medium navB flex flex-col p-4 border rounded-lg">
                 <li>
-                  <a href="/" className="block py-2 px-3 navA">
+                  <Link href="/" className="block py-2 px-3 navA">
                     {t('home')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/services" className="block py-2 px-3 rounded navA">
+                  <Link href="/services" className="block py-2 px-3 rounded navA">
                     {t('services')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/portfolio" className="block py-2 px-3 rounded navA">
+                  <Link href="/portfolio" className="block py-2 px-3 rounded navA">
                     {t('portfolio')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about" className="block py-2 px-3 rounded navA">
+                  <Link href="/about" className="block py-2 px-3 rounded navA">
                     {t('about')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact" className="block py-2 px-3 rounded navA">
+                  <Link href="/contact" className="block py-2 px-3 rounded navA">
                     {t('contact')}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </motion.div>

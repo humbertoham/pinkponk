@@ -1,6 +1,7 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
 export default function Banner() {
   const { t } = useTranslation();
   return (
@@ -18,7 +19,7 @@ export default function Banner() {
           className=" h-60 md:h-3/4  lg:h-3/4 xl:w-[700px]  max-w-full"
           alt="Hero Section"
         />
-        <a href='/services' className='pl-4 learn block mt-2' >{t('learn')} <IoIosArrowForward className='inline'/> </a>
+        <Link href='/services' className='pl-4 learn block mt-2' >{t('learn')} <IoIosArrowForward className='inline'/> </Link>
       </div>
     </div>
   );

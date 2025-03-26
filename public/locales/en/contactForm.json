@@ -6,6 +6,7 @@
       },
       "form": {
         "title": "Get in Touch",
+        "recaptchaError":"Please complete the reCAPTCHA before submitting the form.",
         "fields": {
           "name": {
             "label": "Full Name",

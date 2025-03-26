@@ -20,13 +20,13 @@ const Licensing: React.FC = () => {
         {sections.map((section, index) => (
           <section className="mb-8" key={index}>
             <h2 className="text-2xl md:text-3xl font-semibold mb-4 pop">{section.title}</h2>
-            <p className="text-base md:text-lg leading-relaxed lat">
+            <p className="text-base md:text-lg text-gray-400 leading-relaxed lat">
 
                 <Trans
                                 i18nKey={`licensing.sections.${index}.content`}
                                 defaults={section.content} // Esto asegura que si la clave falla, usa el contenido estático
                                 components={{
-                                  1: <a href="mailto:contact@pinkponk.lol" className="text-yellow underline" target="_blank" rel="noopener noreferrer"></a>,
+                                  1: <a href="mailto:contacto@pinkponk.lol" className="text-yellow underline" target="_blank" rel="noopener noreferrer"></a>,
                                 }}
                               >
                                 {section.content}
@@ -35,7 +35,7 @@ const Licensing: React.FC = () => {
 
             </p>
             {section.items && (
-              <ul className="list-disc list-inside ml-4">
+              <ul className="list-disc text-gray-400 list-inside ml-4">
                 {section.items.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}

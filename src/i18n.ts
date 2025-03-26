@@ -15,6 +15,10 @@ import enErrors from '../public/locales/en/errors.json';
 import esErrors from '../public/locales/es/errors.json';
 import enContactForm from '../public/locales/en/contactForm.json'; // Nuevo JSON
 import esContactForm from '../public/locales/es/contactForm.json'; // Nuevo JSON
+import enPortfolio from '../public/locales/en/portfolio.json'; // Nuevo JSON
+import esPortfolio from '../public/locales/es/portfolio.json'; // Nuevo JSON
+import enFAQ from '../public/locales/en/faq.json'; // Nuevo JSON
+import esFAQ from '../public/locales/es/faq.json'; // Nuevo JSON
 
 const resources = {
   en: {
@@ -24,7 +28,10 @@ const resources = {
     termsAndConditions: enTermsAndConditions,
     privacyPolicy: enPrivacyPolicy,
     errors: enErrors,
-    contactForm: enContactForm, // Agregado
+    contactForm: enContactForm,
+    portfolio: enPortfolio,
+    faq: enFAQ,
+    // Agregado
   },
   es: {
     translation: esTranslations,
@@ -34,6 +41,9 @@ const resources = {
     privacyPolicy: esPrivacyPolicy,
     errors: esErrors,
     contactForm: esContactForm, // Agregado
+    portfolio: esPortfolio,
+    faq: esFAQ,
+
   },
 };
 

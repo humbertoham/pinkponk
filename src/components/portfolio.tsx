@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiSearch, FiCode, FiX } from 'react-icons/fi';
 import Link from 'next/link';
-
+import { useTranslation } from 'react-i18next';
 export interface Project {
   id: string;
   title: string;
@@ -19,6 +19,7 @@ interface PortfolioProps {
 }
 
 const Portfolio = ({ projects }: PortfolioProps) => {
+    const { t } = useTranslation('portfolio');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTechs, setSelectedTechs] = useState<string[]>([]);
 
@@ -71,7 +72,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
 
   return (
     <motion.section 
-      className="py-10"
+      className="pb-10"
       style={{ backgroundColor: '#e9ffdb' }}
       initial="hidden"
       animate="visible"
@@ -98,7 +99,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                   variants={techVariants}
                   onClick={() => handleTechClick(tech)}
                 >
-                  <FiCode />
+                  <FiCode className='text-yellow' />
                   {tech}
                   <FiX className="ml-1" />
                 </motion.div>
@@ -108,14 +109,14 @@ const Portfolio = ({ projects }: PortfolioProps) => {
             {/* Search Bar */}
             <div className="relative">
               <FiSearch className="absolute left-4 top-1/2 transform -translate-y-1/2 text-xl" 
-                style={{ color: '#172b2d' }}/>
+                style={{ color: '#d1ac00' }}/>
               <input
                 type="text"
-                placeholder="Search projects..."
-                className="lat w-full px-6 py-4 text-lg rounded-2xl shadow-lg focus:outline-none pl-12"
+                placeholder={t('search')}
+                className="lat w-full px-6 py-4 text-lg rounded-3xl shadow-lg focus:outline-none pl-12"
                 style={{
-                  backgroundColor: '#faf4d3',
-                  color: '#172b2d',
+                  backgroundColor: '#172b2d',
+                  color: '#faf4d3',
                 }}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -135,7 +136,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
               variants={cardVariants}
               whileHover="hover"
               className="rounded-2xl shadow-xl overflow-hidden"
-              style={{ backgroundColor: '#faf4d3' }}
+              style={{ backgroundColor: '#172b2d' }}
             >
               <Link href={`/projects/${project.id}`} className="block">
                 {/* Project Image */}
@@ -150,11 +151,11 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                 {/* Project Content */}
                 <div className="p-6">
                   <h3 className="pop text-2xl font-bold mb-3" 
-                    style={{ color: '#172b2d' }}>
+                    style={{ color: '#faf4d3' }}>
                     {project.title}
                   </h3>
-                  <p className="lat text-base mb-4" 
-                    style={{ color: '#004643' }}>
+                  <p className="lat text-gray-400 text-base mb-4" 
+                   >
                     {project.description}
                   </p>
                 </div>
@@ -169,9 +170,11 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                       className="lat px-3 py-1.5 text-sm rounded-full flex items-center gap-2 cursor-pointer"
                       style={{
                         backgroundColor: selectedTechs.includes(tech) 
-                          ? '#172b2d' 
+                          ? '#faf4d3' 
                           : '#004643',
-                        color: '#faf4d3',
+                        color: selectedTechs.includes(tech) 
+                        ? '#004643'
+                        : '#faf4d3'  ,
                       }}
                       whileHover={{ scale: 1.05 }}
                       onClick={(e) => {
@@ -179,7 +182,7 @@ const Portfolio = ({ projects }: PortfolioProps) => {
                         handleTechClick(tech);
                       }}
                     >
-                      <FiCode />
+                      <FiCode className='text-yellow' />
                       {tech}
                     </motion.span>
                   ))}
@@ -196,8 +199,8 @@ const Portfolio = ({ projects }: PortfolioProps) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            <p className="lat text-xl" style={{ color: '#004643' }}>
-              No projects found matching your criteria
+            <p className="lat text-xl" style={{ color: '#172b2d' }}>
+              {t('notfound')}
             </p>
           </motion.div>
         )}

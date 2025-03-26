@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "title": "Plataforma de Comercio Electrónico",
+      "description": "Una plataforma de comercio electrónico con autenticación de usuario, listas de productos y un carrito de compras.",
+      "image": "/images/e-commerce-platform.jpg",
+      "link": "https://ecommerce.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Node.js", "MongoDB"]
+    },
+    {
+      "id": "2",
+      "title": "Blog Personal",
+      "description": "Un sitio de blog personal con soporte para markdown y un sistema de gestión de contenido.",
+      "image": "/images/personal-blog.jpg",
+      "link": "https://blog.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "GraphQL", "Prisma"]
+    },
+    {
+      "id": "3",
+      "title": "Sitio Web de Portafolio",
+      "description": "Un sitio web de portafolio para mostrar proyectos y habilidades con un diseño interactivo.",
+      "image": "/images/portfolio-website.jpg",
+      "link": "https://portfolio.example.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"]
+    }
+  ]
+  

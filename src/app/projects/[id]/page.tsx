@@ -1,7 +1,9 @@
+'use client'
 import { Project } from '@/components/portfolio';
 import projectsData from '../../../../public/locales/en/projects.json'; // Your JSON data
 import { FiArrowLeft } from 'react-icons/fi';
 import Link from 'next/link';
+import CTAComponent from '@/components/cta';
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
   const project = (projectsData as Project[]).find(p => p.id === params.id);
@@ -60,6 +62,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           </div>
         </div>
       </div>
+      <CTAComponent/>
     </section>
   );
 }

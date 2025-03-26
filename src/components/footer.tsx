@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaInstagram } from "react-icons/fa6";
-
+import Link from 'next/link';
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -32,29 +32,29 @@ const Footer = () => {
                     <ul className="flex flex-wrap items-center py-2 text-sm font-medium text-gray-400 lg:py-0">
                         
                         <li>
-                            <a href="/services#FAQ" className="hover:underline me-4 md:me-6">FAQ</a>
+                            <Link href="/services#FAQ" className="hover:underline me-4 md:me-6">FAQ</Link>
                         </li>
                         <li>
-                            <a href="/privacypolicy" className="hover:underline me-4 md:me-6">{t('privacy')}</a>
+                            <Link href="/privacypolicy" className="hover:underline me-4 md:me-6">{t('privacy')}</Link>
                         </li>
                         <li>
-                            <a href="/termsandconditions" className="hover:underline me-4 md:me-6">{t('terms')}</a>
+                            <Link href="/termsandconditions" className="hover:underline me-4 md:me-6">{t('terms')}</Link>
                         </li>
                         <li>
-                            <a href="/licensing" className="hover:underline me-4 md:me-6">{t('licen')}</a>
+                            <Link href="/licensing" className="hover:underline me-4 md:me-6">{t('licen')}</Link>
                         </li>
                         <li>
-                            <a href="/legalterms" className="hover:underline me-4 md:me-6">{t('legal')}</a>
+                            <Link href="/legalterms" className="hover:underline me-4 md:me-6">{t('legal')}</Link>
                         </li>
                         <li>
-                            <a href="/contact" className="hover:underline">{t('contact')}</a>
+                            <Link href="/contact" className="hover:underline">{t('contact')}</Link>
                         </li>
                     </ul>
                 </div>
 
                 <hr className="my-4 border-gray-200 sm:mx-auto lg:my-8" />
 
-                <span className="block text-sm text-white text-center">© 2025 <a href="/" className="hover:underline">Pink Ponk</a>. All Rights Reserved.</span>
+                <span className="block text-sm text-white text-center">© 2025 <Link href="/" className="hover:underline">Pink Ponk</Link>. All Rights Reserved.</span>
             </div>
         </footer>
     );

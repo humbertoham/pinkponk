@@ -4,11 +4,11 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Banner() {
   const { t } = useTranslation();
   return (
-    <div className="flex ban flex-col md:flex-row items-left justify-between pl-6 md:pl-12 pb-12">
+    <div className="flex bg-darkgreen flex-col md:flex-row items-left justify-between pl-6 md:pl-12 pb-12">
       {/* Texto */}
       <div className="flex-1">
-        <h1 className="banh">Our</h1>
-        <h1 className="banh">History.</h1>
+        <h1 className="abouth">Our</h1>
+        <h1 className="abouth">History<span className='dot'>.</span></h1>
         
       </div>
 
