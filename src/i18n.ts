@@ -19,6 +19,8 @@ import enPortfolio from '../public/locales/en/portfolio.json'; // Nuevo JSON
 import esPortfolio from '../public/locales/es/portfolio.json'; // Nuevo JSON
 import enFAQ from '../public/locales/en/faq.json'; // Nuevo JSON
 import esFAQ from '../public/locales/es/faq.json'; // Nuevo JSON
+import enAbout from '../public/locales/en/about.json'; // Nuevo JSON
+import esAbout from '../public/locales/es/about.json'; // Nuevo JSON
 
 const resources = {
   en: {
@@ -31,6 +33,7 @@ const resources = {
     contactForm: enContactForm,
     portfolio: enPortfolio,
     faq: enFAQ,
+    about: enAbout,
     // Agregado
   },
   es: {
@@ -43,6 +46,7 @@ const resources = {
     contactForm: esContactForm, // Agregado
     portfolio: esPortfolio,
     faq: esFAQ,
+    about: esAbout,
 
   },
 };

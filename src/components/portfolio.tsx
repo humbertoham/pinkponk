@@ -138,15 +138,17 @@ const Portfolio = ({ projects }: PortfolioProps) => {
               className="rounded-2xl shadow-xl overflow-hidden"
               style={{ backgroundColor: '#172b2d' }}
             >
-              <Link href={`/projects/${project.id}`} className="block">
+              <Link href={`${project.link}`} target='_blank' className="block">
                 {/* Project Image */}
-                <div className="relative h-48">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                {project.image && (
+  <div className="relative h-48">
+    <img
+      src={project.image}
+      alt={project.title}
+      className="w-full h-full object-cover"
+    />
+  </div>
+)}
 
                 {/* Project Content */}
                 <div className="p-6">

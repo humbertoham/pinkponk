@@ -1,27 +1,43 @@
 [
     {
       "id": "1",
-      "title": "Plataforma de Comercio Electrónico",
-      "description": "Una plataforma de comercio electrónico con autenticación de usuario, listas de productos y un carrito de compras.",
-      "image": "/images/e-commerce-platform.jpg",
-      "link": "https://ecommerce.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Node.js", "MongoDB"]
+      "title": "lahormiga.mx",
+      "description": "Desarrollamos la presencia digital de La Hormiga, un destino vibrante para snacks, elotes y helados. Con un diseño responsive e interacciones dinámicas, el sitio impulsa la conversión de visitantes en clientes, optimizando la experiencia de usuario y destacando la esencia de la marca.s",
+      "image": "./images/projects/lahormiga.png",
+      "link": "https://lahormiga.mx",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
       "id": "2",
-      "title": "Blog Personal",
-      "description": "Un sitio de blog personal con soporte para markdown y un sistema de gestión de contenido.",
-      "image": "/images/personal-blog.jpg",
-      "link": "https://blog.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "GraphQL", "Prisma"]
+      "title": "patriciorosado.com",
+      "description": "Creación de una plataforma digital sofisticada para el reconocido fotógrafo Patricio Rosado. Este portafolio en línea combina un diseño visualmente impactante con una navegación intuitiva, diseñado para captar la atención de potenciales clientes y resaltar el talento artístico.",
+      "image": "./images/projects/patricio.png",
+      "link": "https://patriciorosado.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
       "id": "3",
-      "title": "Sitio Web de Portafolio",
-      "description": "Un sitio web de portafolio para mostrar proyectos y habilidades con un diseño interactivo.",
-      "image": "/images/portfolio-website.jpg",
-      "link": "https://portfolio.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"]
+      "title": "ambulanciastvr.com",
+      "description": "Desarrollo de un sitio web informativo y de fácil acceso para AmbulanciasTVR, facilitando la consulta de sus servicios críticos. La interfaz moderna y optimizada para móviles genera confianza en los usuarios, mejorando la comunicación y la captación de nuevos clientes.",
+      "image": "./images/projects/ambulancias.png",
+      "link": "https://ambulanciastvr.com",
+      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+    },
+    {
+      "id": "4",
+      "title": "Contador de Tráfico",
+      "description": "Sistema avanzado de monitoreo vehicular que utiliza tecnologías de visión por computador para detectar y clasificar vehículos según tamaño, tipo y otros criterios relevantes. Ideal para la implementación en sistemas de peaje, permite gestionar tarifas diferenciadas para cada categoría y registrar meticulosamente la circulación y rutas, ofreciendo informes analíticos basados en fórmulas estadísticas que apoyan la toma de decisiones estratégicas.",
+      "image": "",
+      "link": "",
+      "technologies": ["Python", "OpenCV", "TensorFlow", "PyTorch"]
+    },
+    {
+      "id": "5",
+      "title": "Análisis Estadístico con Generación de Informes en PDF",
+      "description": "Solución integral desarrollada en Windows Forms con C# que realiza análisis estadísticos avanzados sobre datos empresariales. La aplicación calcula métricas clave como media, mediana y desviación estándar, y genera informes PDF de alta calidad utilizando la biblioteca iTextSharp. Diseñada para optimizar la toma de decisiones, presenta resultados de manera profesional y estructurada, fortaleciendo la estrategia corporativa.",
+      "image": "",
+      "link": "",
+      "technologies": ["C#", "Windows Forms"]
     }
   ]
   

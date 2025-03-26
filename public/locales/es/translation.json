@@ -6,12 +6,14 @@
   "portfolio":"Portafolio",
   "about":"Acerca de",
   "contact":"Contáctanos",
-  "learn":"Ver más",
+  "learn":"Más información",
   "privacy":"Políticas de Privacidad",
   "terms":"Términos & Condiciones",
   "licen":"Licencias",
   "legal":"Términos Legales",
   "title": "¡Vamos a crear juntos!",
   "description": "¿Listo para darle vida a tu visión? Colaboremos en algo extraordinario que se alinee con tus objetivos únicos.",
-  "buttonText": "Contáctanos"
+  "buttonText": "Contáctanos",
+  "all":"Todos los derechos reservados.",
+  "our":"Nuestra Experiencia"
 }

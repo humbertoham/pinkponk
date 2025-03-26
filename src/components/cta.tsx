@@ -23,7 +23,7 @@ const CTAComponent = () => {
         <div className="inline-block relative group">
         <Link href="/contact" passHref>
           <motion.button
-            className="flex items-center gap-2 px-8 py-5 rounded-xl bg-[var(--green)] tw font-black pop text-xl transition-transform hover:scale-105 active:scale-95"
+            className="flex items-center gap-2 px-8 py-5 rounded-xl bg-[var(--darkgreen)] tw font-black pop text-xl transition-transform hover:scale-105 active:scale-95"
           >
             {t('buttonText')}
             <FiMail className="w-6 h-6 text-yellow" />

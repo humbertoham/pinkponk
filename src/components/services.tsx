@@ -1,81 +1,94 @@
-'use client';
-
-import React from "react";
-import Slider from "react-slick";
+// components/ServicesSection.tsx
+"use client";
 import { motion } from "framer-motion";
-import { FaCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { FiArrowUpRight } from "react-icons/fi";
+import { ServiceItem } from "./type";
+import Link from 'next/link';
+import { useTranslation } from "next-i18next";
 
-const CustomArrow = ({ className, style, onClick, direction }: any) => (
-  <div
-    className={`${className} ${direction === 'prev' ? 'left-0' : 'right-0'} z-10 flex justify-center items-center w-10 h-10 bg-blue-500 text-white rounded-full shadow-md cursor-pointer`}
-    style={{ ...style }}
-    onClick={onClick}
-  >
-    {direction === 'prev' ? '<' : '>'}
-  </div>
-);
+interface ServicesSectionProps {
+  services: ServiceItem[];
+}
 
-const ServiceCard: React.FC<{ icon: JSX.Element; title: string; description: string }> = ({ icon, title, description }) => (
-  <motion.div
-    className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-  >
-    <div className="text-blue-500 text-4xl mb-4">{icon}</div>
-    <h3 className="text-lg font-semibold mb-2">{title}</h3>
-    <p className="text-gray-600">{description}</p>
-  </motion.div>
-);
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
 
-const ServicesCarousel = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    nextArrow: <CustomArrow direction="next" />,
-    prevArrow: <CustomArrow direction="prev" />,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
-    ],
-  };
+const itemVariants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 100 },
+  },
+  hover: {
+    y: -10,
+    transition: { type: "spring", stiffness: 300 },
+  },
+};
+
+export default function ServicesSection({ services }: ServicesSectionProps) {
+  const { t } = useTranslation();
 
   return (
-    <section className="py-12 bg-gray-100 relative">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-        <Slider {...settings}>
-          <ServiceCard
-            icon={<FaCode />}
-            title="Web Development"
-            description="Creating responsive and modern websites tailored to your needs."
-          />
-          <ServiceCard
-            icon={<FaPaintBrush />}
-            title="Graphic Design"
-            description="Crafting visually appealing and user-friendly designs."
-          />
-          <ServiceCard
-            icon={<FaMobileAlt />}
-            title="Mobile Development"
-            description="Building high-performance mobile applications for all platforms."
-          />
-        </Slider>
-        {/* Texto flotante */}
-        <motion.div
-          className="absolute top-0 left-0 right-0 text-center text-sm text-gray-600"
-          animate={{ opacity: [0, 1, 0] }}
-          transition={{ repeat: Infinity, duration: 4 }}
+    <section className="relative pt-8 md:pt-14 px-4 sm:px-6 lg:px-8 bg-[var(--menta)]">
+      <div className="max-w-7xl mx-auto">
+        <motion.h2 
+          className="text-4xl md:text-5xl font-bold text-darkgreen pop mb-16 text-center"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
         >
-          Desliza para ver más
+          {t('our')}
+        </motion.h2>
+
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+        >
+          {services.map((service, index) => (
+            <motion.div
+              key={service.id}
+              variants={itemVariants}
+              whileHover="hover"
+              className="group relative bg-darkgreen rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div className="absolute inset-0 rounded-2xl bg-darkgreen opacity-0 group-hover:opacity-100 transition-opacity" />
+              
+              <div className="relative z-10">
+                <service.icon className="w-12 h-12 text-yellow mb-6" />
+                <h3 className="text-xl md:text-2xl font-black tw pop mb-4">
+                  {service.title}
+                </h3>
+                <p className="text-gray-400 mb-6">{service.description}</p>
+                <Link href="/contact">
+                <motion.div
+                  className="inline-flex items-center underline gap-2 text-white font-medium"
+                  whileHover={{ x: 5 }}
+                >
+                  <span>{t('learn')}</span>
+                  <FiArrowUpRight className="w-5 text-yellow h-5" />
+                </motion.div>
+                </Link>
+              </div>
+
+              {/* Floating decoration */}
+            
+            </motion.div>
+          ))}
         </motion.div>
+
+      
       </div>
     </section>
   );
-};
-
-export default ServicesCarousel;
+}

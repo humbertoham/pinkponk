@@ -1,27 +1,42 @@
 [
-    {
-      "id": "1",
-      "title": "E-Commerce Platform",
-      "description": "A full-featured e-commerce platform with user authentication, product listings, and a shopping cart.",
-      "image": "/images/e-commerce-platform.jpg",
-      "link": "https://ecommerce.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Node.js", "MongoDB"]
-    },
-    {
-      "id": "2",
-      "title": "Personal Blog",
-      "description": "A personal blog site with markdown support and a content management system.",
-      "image": "/images/personal-blog.jpg",
-      "link": "https://blog.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "GraphQL", "Prisma"]
-    },
-    {
-      "id": "3",
-      "title": "Portfolio Website",
-      "description": "A portfolio website to showcase projects and skills with an interactive design.",
-      "image": "/images/portfolio-website.jpg",
-      "link": "https://portfolio.example.com",
-      "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "title": "lahormiga.mx",
+    "description": "We developed the digital presence of La Hormiga, a vibrant destination for snacks, corn on the cob, and ice cream. With a responsive design and dynamic interactions, the site drives the conversion of visitors into customers, optimizing the user experience and highlighting the essence of the brand.",
+    "image": "./images/projects/lahormiga.png",
+    "link": "https://lahormiga.mx",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "2",
+    "title": "patriciorosado.com",
+    "description": "Creation of a sophisticated digital platform for the renowned photographer Patricio Rosado. This online portfolio combines a visually striking design with intuitive navigation, designed to capture the attention of potential clients and highlight artistic talent.",
+    "image": "./images/projects/patricio.png",
+    "link": "https://patriciorosado.com",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "3",
+    "title": "ambulanciastvr.com",
+    "description": "Development of an informative and easily accessible website for AmbulanciasTVR, facilitating the consultation of its critical services. The modern, mobile-optimized interface builds user trust, enhancing communication and attracting new customers.",
+    "image": "./images/projects/ambulancias.png",
+    "link": "https://ambulanciastvr.com",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "4",
+    "title": "Traffic Counter",
+    "description": "​An advanced vehicular monitoring system that utilizes computer vision technologies to detect and classify vehicles by size, type, and other relevant criteria. Ideal for implementation in toll systems, it enables differentiated rate management for each category and meticulously records traffic and routes, providing analytical reports based on statistical formulas that support strategic decision-making.",
+    "image": "",
+    "link": "",
+    "technologies": ["Python", "OpenCV", "TensorFlow", "PyTorch"]
+  },
+  {
+    "id": "5",
+    "title": "Statistical Analysis Program with PDF Report Generation",
+    "description": "A comprehensive solution developed in Windows Forms using C# that performs advanced statistical analyses on business data. The application calculates key metrics such as mean, median, and standard deviation, and generates high-quality PDF reports utilizing the iTextSharp library. Designed to optimize decision-making, it presents results in a professional and structured manner, strengthening corporate strategy.",
+    "image": "",
+    "link": "",
+    "technologies": ["C#", "Windows Forms"]
+  }
+]

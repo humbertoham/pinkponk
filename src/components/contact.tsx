@@ -88,7 +88,7 @@ const ContactForm = () => {
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <motion.h2
-              className="text-[var(--yellow)] text-3xl font-bold mb-8 text-center pop"
+              className="text-[var(--white)] text-3xl font-bold mb-8 text-center pop"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -102,7 +102,7 @@ const ContactForm = () => {
         ) : (
           <>
             <motion.h2
-              className="text-[var(--yellow)] text-3xl font-bold mb-8 text-center pop"
+              className="text-[var(--white)] text-3xl font-bold mb-8 text-center pop"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -119,7 +119,7 @@ const ContactForm = () => {
                 htmlFor="name"
                 className="block text-[var(--white)] font-medium mb-2 pop"
               >
-                <FaUser className="text-[var(--white)] mr-3 inline" />
+                <FaUser className="text-[var(--yellow)] mr-3 inline" />
                 {t("contactForm.form.fields.name.label")}
               </label>
               <input
@@ -130,7 +130,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 placeholder={t("contactForm.form.fields.name.placeholder")}
                 required
-                className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[var(--white)] lat"
+                className="w-full px-4 py-3 rounded-lg border focus:outline-none bgw focus:ring-2 focus:ring-[var(--white)] lat"
               />
             </motion.div>
             <motion.div
@@ -143,7 +143,7 @@ const ContactForm = () => {
                 htmlFor="email"
                 className="block text-[var(--white)] font-medium mb-2 pop"
               >
-                <FaEnvelope className="text-[var(--white)] mr-3 inline" />
+                <FaEnvelope className="text-[var(--yellow)] mr-3 inline" />
                 {t("contactForm.form.fields.email.label")}
               </label>
               <input
@@ -154,7 +154,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 placeholder={t("contactForm.form.fields.email.placeholder")}
                 required
-                className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[var(--white)] lat"
+                className="w-full px-4 py-3 rounded-lg border focus:outline-none bgw focus:ring-2 focus:ring-[var(--white)] lat"
               />
             </motion.div>
             <motion.div
@@ -167,7 +167,7 @@ const ContactForm = () => {
                 htmlFor="message"
                 className="block text-[var(--white)] font-medium mb-2 pop"
               >
-                <MdMessage className="text-[var(--white)] mr-3 inline" />
+                <MdMessage className="text-[var(--yellow)] mr-3 inline" />
                 {t("contactForm.form.fields.message.label")}
               </label>
               <textarea
@@ -178,7 +178,7 @@ const ContactForm = () => {
                 placeholder={t("contactForm.form.fields.message.placeholder")}
                 required
                 rows={6}
-                className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[var(--white)] lat"
+                className="w-full px-4 py-3 rounded-lg border focus:outline-none bgw focus:ring-2 focus:ring-[var(--white)] lat"
               />
             </motion.div>
 
@@ -196,7 +196,7 @@ const ContactForm = () => {
       id="terms"
       checked={isChecked}
       onChange={handleCheckboxChange}
-      className="accent-[var(--yellow)] mb-5 sm:mb-0"
+      className="accent-[var(--yellow)] bgw mb-5 sm:mb-0"
     />
     <label
       htmlFor="terms"
@@ -229,17 +229,16 @@ transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
       />
       </motion.div>
 
-<div className="flex justify-center">
+<div className="flex tdg justify-center">
   <motion.button
     type="submit"
-    className="bg-[var(--darkgreen)] text-[var(--yellow)] max-w-sm font-semibold py-3 px-4 rounded-xl hover:bg-[var(--green)] hover:text-[var(--white)] focus:outline-none focus:ring-2 focus:ring-[var(--yellow)] transition-all duration-100 lat"
+    className="bg-[var(--darkgreen)] text-[var(--white)] max-w-sm font-black py-3 px-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-[var(--yellow)] transition-all duration-100 pop"
     whileHover={{
-      backgroundColor: "var(--yellow)",
-      color: "var(--darkgreen)",
+      scale: 1.05
     }}
     whileTap={{ scale: 0.95 }}
   >
-    <FaRegPaperPlane className="mr-2 inline" />
+    <FaRegPaperPlane className="mr-2 text-yellow inline" />
     {t("contactForm.button.submit")}
   </motion.button>
 </div>

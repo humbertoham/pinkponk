@@ -52,9 +52,9 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <hr className="my-4 border-gray-200 sm:mx-auto lg:my-8" />
+                <hr className="my-4 line sm:mx-auto lg:my-8" />
 
-                <span className="block text-sm text-white text-center">© 2025 <Link href="/" className="hover:underline">Pink Ponk</Link>. All Rights Reserved.</span>
+                <span className="block text-sm text-white text-center">© 2025 <Link href="/" className="hover:underline">Pink Ponk</Link>. {t('all')}</span>
             </div>
         </footer>
     );
