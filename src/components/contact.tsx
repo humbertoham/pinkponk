@@ -196,7 +196,7 @@ const ContactForm = () => {
       id="terms"
       checked={isChecked}
       onChange={handleCheckboxChange}
-      className="accent-[var(--yellow)] bgw mb-5 sm:mb-0"
+      className="accent-[var(--yellow)] tw bgw mb-5 sm:mb-0"
     />
     <label
       htmlFor="terms"
@@ -212,7 +212,7 @@ const ContactForm = () => {
       </Trans>
     </label>
   </div>
-  {error && <p className="text-red-500 text-center mt-2">{error}</p>}
+  {error && <p className="text-yellow text-base lat text-center mt-2">{error}</p>}
 </motion.div>
 <motion.div
 className="mb-6 flex flex-col items-center"
