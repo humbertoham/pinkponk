@@ -65,7 +65,9 @@
 
 
   }
-
+  .rc-anchor-light{
+    background-color: var(--white) !important;
+  }
 
   body {
     scrollbar-width: thin; /* Solo para navegadores Firefox */

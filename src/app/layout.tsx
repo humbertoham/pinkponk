@@ -93,6 +93,49 @@ export default function RootLayout({
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Pink Ponk</title>
           <meta name="theme-color" content="#e9ffdb" />
+
+          <meta name="description" content="Pink Ponk is a professional software development company specializing in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. We deliver scalable, secure, and innovative solutions for startups and enterprises."/>
+    <link rel="canonical" href="https://pinkponk.lol/"/>
+    <meta name="keywords" content="Software Development, IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning"></meta>
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:title" content="Pink Ponk"/>
+<meta property="og:description" content="Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!"/>
+<meta property="og:image" content="https://pinkponk.lol/images/card.png"/>
+<meta property="og:url" content="https://pinkponk.lol"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Pink Ponk"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Pink Ponk"/>
+<meta name="twitter:description" content="Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!"/>
+<meta name="twitter:image" content="https://pinkponk.lol/images/card.png"/>
+<meta name="twitter:site" content="@pinkponklol"/>
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pink Ponk",
+  "url": "https://pinkponk.lol",
+  "logo": "https://pinkponk.lol/images/weblogo.svg",
+  "description": "Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "contacto@pinkponk.lol",
+    "areaServed": "Worldwide"
+  },
+  "sameAs": [
+    "https://www.facebook.com/pinkponkstdio",
+    "https://www.instagram.com/pinkponk.lol",
+    "https://x.com/pinkponklol"
+  ]
+            }),
+          }}
+        />
+
+
+
           <link id="favicon" rel="icon" href="/favicon-light.ico" />
           <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-light.png" />
           <link id="favicon-32x32" rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-light.png" />
@@ -121,6 +164,49 @@ export default function RootLayout({
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pink Ponk</title>
     <meta name="theme-color" content="#e9ffdb" />
+
+    <meta name="description" content="Pink Ponk is a professional software development company specializing in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. We deliver scalable, secure, and innovative solutions for startups and enterprises."/>
+    <link rel="canonical" href="https://pinkponk.lol/"/>
+    <meta name="keywords" content="Software Development, IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning"></meta>
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:title" content="Pink Ponk"/>
+<meta property="og:description" content="Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!"/>
+<meta property="og:image" content="https://pinkponk.lol/images/card.png"/>
+<meta property="og:url" content="https://pinkponk.lol"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Pink Ponk"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Pink Ponk"/>
+<meta name="twitter:description" content="Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!"/>
+<meta name="twitter:image" content="https://pinkponk.lol/images/card.png"/>
+<meta name="twitter:site" content="@pinkponklol"/>
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pink Ponk",
+  "url": "https://pinkponk.lol",
+  "logo": "https://pinkponk.lol/images/weblogo.svg",
+  "description": "Crafting custom software solutions for businesses worldwide. Expertise in IT Consulting, Web Development, Mobile App Development, Cloud Solutions, Data Engineering, AI & Machine Learning. Let's Create Together!",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "contacto@pinkponk.lol",
+    "areaServed": "Worldwide"
+  },
+  "sameAs": [
+    "https://www.facebook.com/pinkponkstdio",
+    "https://www.instagram.com/pinkponk.lol",
+    "https://x.com/pinkponklol"
+  ]
+            }),
+          }}
+        />
+
+
+
     <link id="favicon" rel="icon" href="/favicon-light.ico" />
     <link id="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-light.png" />
     <link id="favicon-32x32" rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-light.png" />
