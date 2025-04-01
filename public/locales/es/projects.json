@@ -1,10 +1,10 @@
 [
-    {
+   {
       "id": "1",
-      "title": "lahormiga.mx",
-      "description": "Desarrollamos la presencia digital de La Hormiga, un destino vibrante para snacks, elotes y helados. Con un diseño responsive e interacciones dinámicas, el sitio impulsa la conversión de visitantes en clientes, optimizando la experiencia de usuario y destacando la esencia de la marca.s",
-      "image": "./images/projects/lahormiga.png",
-      "link": "https://lahormiga.mx",
+      "title": "ambulanciastvr.com",
+      "description": "Desarrollo de un sitio web informativo y de fácil acceso para AmbulanciasTVR, facilitando la consulta de sus servicios críticos. La interfaz moderna y optimizada para móviles genera confianza en los usuarios, mejorando la comunicación y la captación de nuevos clientes.",
+      "image": "./images/projects/ambulancias.png",
+      "link": "https://ambulanciastvr.com",
       "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
@@ -17,10 +17,10 @@
     },
     {
       "id": "3",
-      "title": "ambulanciastvr.com",
-      "description": "Desarrollo de un sitio web informativo y de fácil acceso para AmbulanciasTVR, facilitando la consulta de sus servicios críticos. La interfaz moderna y optimizada para móviles genera confianza en los usuarios, mejorando la comunicación y la captación de nuevos clientes.",
-      "image": "./images/projects/ambulancias.png",
-      "link": "https://ambulanciastvr.com",
+      "title": "lahormiga.mx",
+      "description": "Desarrollamos la presencia digital de La Hormiga, un destino vibrante para snacks, elotes y helados. Con un diseño responsive e interacciones dinámicas, el sitio impulsa la conversión de visitantes en clientes, optimizando la experiencia de usuario y destacando la esencia de la marca.s",
+      "image": "./images/projects/lahormiga.png",
+      "link": "https://lahormiga.mx",
       "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
