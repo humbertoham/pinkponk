@@ -1,6 +1,21 @@
 [
+  {
+    "id": "1",
+    "title": "larqinteriors.com",
+    "description": "Creamos el sitio web de LARQ, con un diseño elegante y orientado a móviles, para mostrar nuestra experiencia integral en interiorismo y arquitectura: desde renovaciones de alta calidad y planos con cumplimiento normativo hasta interiores artísticos, fachadas personalizadas, renderizados 3D inmersivos y gestión completa de proyectos. Integramos un portafolio interactivo con galerías de antes y después, recorridos virtuales y vistas CAD ampliables, junto con llamadas a la acción claras para consultas. Gracias a un CMS flexible, el contenido se renueva fácilmente y reflejamos cómo combinamos precisión, funcionalidad y excelencia estética.",
+    "image": "./images/projects/larq.png",
+    "link": "https://larqinteriors.com",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  }, {
+    "id": "2",
+    "title": "Reportes de Campo Offline para Ambulancias",
+    "description": "Desarrollamos una aplicación móvil que funciona sin conexión para un servicio de ambulancias, permitiendo a los paramédicos completar informes de pacientes e incidentes en el lugar, incluso sin cobertura de red, y generar al instante documentos PDF con formato adecuado para impresión o envío digital. Al integrar un constructor de formularios adaptable, almacenamiento local y un generador de PDF incorporado, garantizamos que el equipo capture información crítica de manera fluida en terreno y entregue informes precisos y conformes a hospitales y despachos.",
+    "image": "",
+    "link": "",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS"]
+  },
     {
-      "id": "1",
+      "id": "3",
       "title": "lahormiga.mx",
       "description": "Desarrollamos la presencia digital de La Hormiga, un destino vibrante para snacks, elotes y helados. Con un diseño responsive e interacciones dinámicas, el sitio impulsa la conversión de visitantes en clientes, optimizando la experiencia de usuario y destacando la esencia de la marca.s",
       "image": "./images/projects/lahormiga.png",
@@ -8,7 +23,7 @@
       "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
-      "id": "2",
+      "id": "4",
       "title": "patriciorosado.com",
       "description": "Creación de una plataforma digital sofisticada para el reconocido fotógrafo Patricio Rosado. Este portafolio en línea combina un diseño visualmente impactante con una navegación intuitiva, diseñado para captar la atención de potenciales clientes y resaltar el talento artístico.",
       "image": "./images/projects/patricio.png",
@@ -16,7 +31,7 @@
       "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
-      "id": "3",
+      "id": "5",
       "title": "ambulanciastvr.com",
       "description": "Desarrollo de un sitio web informativo y de fácil acceso para AmbulanciasTVR, facilitando la consulta de sus servicios críticos. La interfaz moderna y optimizada para móviles genera confianza en los usuarios, mejorando la comunicación y la captación de nuevos clientes.",
       "image": "./images/projects/ambulancias.png",
@@ -24,7 +39,7 @@
       "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
     },
     {
-      "id": "4",
+      "id": "6",
       "title": "Contador de Tráfico",
       "description": "Sistema avanzado de monitoreo vehicular que utiliza tecnologías de visión por computador para detectar y clasificar vehículos según tamaño, tipo y otros criterios relevantes. Ideal para la implementación en sistemas de peaje, permite gestionar tarifas diferenciadas para cada categoría y registrar meticulosamente la circulación y rutas, ofreciendo informes analíticos basados en fórmulas estadísticas que apoyan la toma de decisiones estratégicas.",
       "image": "",
@@ -32,7 +47,7 @@
       "technologies": ["Python", "OpenCV", "TensorFlow", "PyTorch"]
     },
     {
-      "id": "5",
+      "id": "7",
       "title": "Análisis Estadístico con Generación de Informes en PDF",
       "description": "Solución integral desarrollada en Windows Forms con C# que realiza análisis estadísticos avanzados sobre datos empresariales. La aplicación calcula métricas clave como media, mediana y desviación estándar, y genera informes PDF de alta calidad utilizando la biblioteca iTextSharp. Diseñada para optimizar la toma de decisiones, presenta resultados de manera profesional y estructurada, fortaleciendo la estrategia corporativa.",
       "image": "",

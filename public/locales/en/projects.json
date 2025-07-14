@@ -1,6 +1,21 @@
-[
-  {
+[{
     "id": "1",
+    "title": "larqinteriors.com",
+    "description": "We built LARQ’s sleek, mobile‑first website to showcase our full‑service interior and architectural design expertise—handling everything from high‑quality renovations and code‑compliant blueprints to artful interiors, custom facades, immersive 3D renderings, and end‑to‑end project management. We integrated an interactive portfolio with before‑and‑after galleries, embedded virtual walkthroughs, and zoomable CAD previews, plus clear calls‑to‑action for consultations. Powered by a flexible CMS, the site stays fresh and highlights how we blend precision, functionality, and aesthetic excellence.",
+    "image": "./images/projects/larq.png",
+    "link": "https://larqinteriors.com",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "2",
+    "title": "Offline Ambulance Reporting & PDF Generator",
+    "description": "We developed an offline‑capable mobile app for an ambulance service that lets paramedics complete patient and incident reports on the go—even without network coverage—and instantly generate properly formatted PDF documents ready for printing or digital handoff. By combining a responsive form builder, local data storage, and a built‑in PDF generator, we ensured crews can capture critical information seamlessly in the field and deliver accurate, compliant reports to hospitals and dispatch.",
+    "image": "",
+    "link": "",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS"]
+  },
+  {
+    "id": "3",
     "title": "lahormiga.mx",
     "description": "We developed the digital presence of La Hormiga, a vibrant destination for snacks, corn on the cob, and ice cream. With a responsive design and dynamic interactions, the site drives the conversion of visitors into customers, optimizing the user experience and highlighting the essence of the brand.",
     "image": "./images/projects/lahormiga.png",
@@ -8,7 +23,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
   {
-    "id": "2",
+    "id": "4",
     "title": "patriciorosado.com",
     "description": "Creation of a sophisticated digital platform for the renowned photographer Patricio Rosado. This online portfolio combines a visually striking design with intuitive navigation, designed to capture the attention of potential clients and highlight artistic talent.",
     "image": "./images/projects/patricio.png",
@@ -16,7 +31,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
   {
-    "id": "3",
+    "id": "5",
     "title": "ambulanciastvr.com",
     "description": "Development of an informative and easily accessible website for AmbulanciasTVR, facilitating the consultation of its critical services. The modern, mobile-optimized interface builds user trust, enhancing communication and attracting new customers.",
     "image": "./images/projects/ambulancias.png",
@@ -24,7 +39,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
   {
-    "id": "4",
+    "id": "6",
     "title": "Traffic Counter",
     "description": "​An advanced vehicular monitoring system that utilizes computer vision technologies to detect and classify vehicles by size, type, and other relevant criteria. Ideal for implementation in toll systems, it enables differentiated rate management for each category and meticulously records traffic and routes, providing analytical reports based on statistical formulas that support strategic decision-making.",
     "image": "",
@@ -32,7 +47,7 @@
     "technologies": ["Python", "OpenCV", "TensorFlow", "PyTorch"]
   },
   {
-    "id": "5",
+    "id": "7",
     "title": "Statistical Analysis Program with PDF Report Generation",
     "description": "A comprehensive solution developed in Windows Forms using C# that performs advanced statistical analyses on business data. The application calculates key metrics such as mean, median, and standard deviation, and generates high-quality PDF reports utilizing the iTextSharp library. Designed to optimize decision-making, it presents results in a professional and structured manner, strengthening corporate strategy.",
     "image": "",
