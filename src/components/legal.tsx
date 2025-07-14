@@ -25,7 +25,7 @@ const LegalTerms: React.FC = () => {
                                                 i18nKey={`terms.sections.${index}.content`}
                                                 defaults={section.content} // Esto asegura que si la clave falla, usa el contenido estático
                                                 components={{
-                                                  1: <a href="mailto:contacto@pinkponk.lol" className="text-yellow underline" target="_blank" rel="noopener noreferrer"></a>,
+                                                  1: <a href="mailto:contact@pinkponk.dev" className="text-yellow underline" target="_blank" rel="noopener noreferrer"></a>,
                                                   2: <Link href="/privacypolicy" className="text-yellow underline" rel="noopener noreferrer"></Link>,
                                                 }}
                                               >
