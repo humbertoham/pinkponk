@@ -1,5 +1,41 @@
-[{
+[
+   
+  {
     "id": "1",
+    "title": "wavestudio.mx",
+    "description": "Wave Studio merges technology and wellness into a seamless e-commerce experience. We built a platform where users can register, book, and purchase training sessions—ranging from yoga and pilates to HIIT—through a secure integration with Mercado Pago’s API. With JWT-based authentication, a scalable database, and fluid motion effects, the site delivers a dynamic and intuitive fitness ecosystem that captures Wave Studio’s spirit of balance, strength, and mindfulness.",
+    "image": "./images/projects/wave.png",
+    "link": "https://wavestudio.mx",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "JWT", "APIs"]
+  },
+  {
+    "id": "2",
+    "title": "lovell-ignitethegame.com",
+    "description": "For Lovell Ignite The Game, we crafted a visually compelling website highlighting the company’s expertise in the fabrication, installation, and maintenance of premium-quality sports courts. The platform communicates reliability and precision, offering details on national coverage, warranty terms of up to five years, and the superior craftsmanship behind each project. Its refined interface and performance-optimized design ensure visitors experience a trustworthy and professional brand image.",
+    "image": "./images/projects/lovell.png",
+    "link": "https://www.lovell-ignitethegame.com/",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "3",
+    "title": "animalijos.com",
+    "description": "We designed and developed Animalijos, an elegant digital platform tailored for veterinary professionals and pet owners alike. The site showcases a modern aesthetic catalog featuring high-quality pet products, from snacks and specialized food to care accessories. Its user-centered layout and brand-consistent visuals elevate Animalijos’ online presence, emphasizing professionalism and trust within the animal care industry.",
+    "image": "./images/projects/animalijos.png",
+    "link": "https://animalijos.com",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    "id": "4",
+    "title": "Custom Web Applications for Ambulance Services",
+    "description": "We engineered a suite of web applications designed to streamline data collection for ambulance services. These online tools allow paramedics to complete detailed digital forms that automatically generate personalized PDF documents—including digital signatures—for each case. By combining responsive UI, form validation, and seamless PDF generation, the system enhances operational efficiency, ensuring that medical and administrative documentation remains accurate, professional, and instantly shareable.",
+    "image": "",
+    "link": "",
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
+  },
+  
+  
+  {
+    "id": "5",
     "title": "larqinteriors.com",
     "description": "We built LARQ’s sleek, mobile‑first website to showcase our full‑service interior and architectural design expertise—handling everything from high‑quality renovations and code‑compliant blueprints to artful interiors, custom facades, immersive 3D renderings, and end‑to‑end project management.",
     "image": "./images/projects/larq.png",
@@ -7,7 +43,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
   {
-    "id": "2",
+    "id": "6",
     "title": "ambulanciastvr.com",
     "description": "Development of an informative and easily accessible website for AmbulanciasTVR, facilitating the consultation of its critical services. The modern, mobile-optimized interface builds user trust, enhancing communication and attracting new customers.",
     "image": "./images/projects/ambulancias.png",
@@ -15,7 +51,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
    {
-    "id": "3",
+    "id": "7",
     "title": "patriciorosado.com",
     "description": "Creation of a sophisticated digital platform for the renowned photographer Patricio Rosado. This online portfolio combines a visually striking design with intuitive navigation, designed to capture the attention of potential clients and highlight artistic talent.",
     "image": "./images/projects/patricio.png",
@@ -23,7 +59,7 @@
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"]
   },
   {
-    "id": "4",
+    "id": "8",
     "title": "Offline Ambulance Reporting & PDF Generator",
     "description": "We developed an offline‑capable mobile app for an ambulance service that lets paramedics complete patient and incident reports on the go—even without network coverage—and instantly generate properly formatted PDF documents ready for printing or digital handoff. By combining a responsive form builder, local data storage, and a built‑in PDF generator, we ensured crews can capture critical information seamlessly in the field and deliver accurate, compliant reports to hospitals and dispatch.",
     "image": "",
@@ -34,7 +70,7 @@
  
   
   {
-    "id": "5",
+    "id": "9",
     "title": "Traffic Counter",
     "description": "​An advanced vehicular monitoring system that utilizes computer vision technologies to detect and classify vehicles by size, type, and other relevant criteria. Ideal for implementation in toll systems, it enables differentiated rate management for each category and meticulously records traffic and routes, providing analytical reports based on statistical formulas that support strategic decision-making.",
     "image": "",
@@ -42,7 +78,7 @@
     "technologies": ["Python", "OpenCV", "TensorFlow", "PyTorch"]
   },
   {
-    "id": "6",
+    "id": "10",
     "title": "Statistical Analysis Program with PDF Report Generation",
     "description": "A comprehensive solution developed in Windows Forms using C# that performs advanced statistical analyses on business data. The application calculates key metrics such as mean, median, and standard deviation, and generates high-quality PDF reports utilizing the iTextSharp library. Designed to optimize decision-making, it presents results in a professional and structured manner, strengthening corporate strategy.",
     "image": "",
@@ -50,7 +86,7 @@
     "technologies": ["C#", "Windows Forms"]
   },
   {
-    "id": "7",
+    "id": "11",
     "title": "lahormiga.mx",
     "description": "We developed the digital presence of La Hormiga, a vibrant destination for snacks, corn on the cob, and ice cream. With a responsive design and dynamic interactions, the site drives the conversion of visitors into customers, optimizing the user experience and highlighting the essence of the brand.",
     "image": "./images/projects/lahormiga.png",
